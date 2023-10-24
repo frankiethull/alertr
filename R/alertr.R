@@ -11,6 +11,6 @@
 
 alert <- function(...){
 
-  wav <- audio::load.wave("mgs_alert_sound.wav")
+  wav <- audio::load.wave("inst/mgs_alert_sound.wav")
   audio::play(wav)
 }
