@@ -1,0 +1,13 @@
+Package: alertr
+Title: Function for ALERTing 
+Version: 0.0.0.9000
+Authors@R: 
+    person("Frank", "Hull", , "frankiethull@gmail.com", role = c("aut", "cre"))
+Description: Plays the infamous ALERT sound from Metal Gear Solid Franchise. 
+	     Place this function within a loop (or apply) to let you know when the routine is complete, or, has an issue.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    audio
