@@ -11,6 +11,7 @@
 
 alert <- function(...){
 
-  wav <- audio::load.wave(paste0(.libPaths()[[1]], "/", "alertr", "/", "mgs_alert_sound.wav"))
-  audio::play(wav)
+  path <- system.file("mgs_alert_sound.wav", package = "alertr")
+   wav <- audio::load.wave(path)
+    audio::play(wav)
 }
