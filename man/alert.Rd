@@ -17,6 +17,3 @@ an ALERT sound
 ALERT
 import(audio)
 }
-\examples{
-alertr::alert()
-}

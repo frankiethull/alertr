@@ -5,9 +5,6 @@
 #'
 #' @return an ALERT sound
 #' @export
-#'
-#' @examples
-#' alertr::alert()
 
 alert <- function(...){
 
